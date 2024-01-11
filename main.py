@@ -22,4 +22,8 @@ async def on_message(message):
     else:
         await message.channel.send(message.content)
 
-client.run("token eklenecek")
+def emoji_olusturucu():
+    emoji = ["\U0001f600", "\U0001f642", "\U0001F606", "\U0001F923"]
+    return random.choice(emoji)
+
+client.run("")
